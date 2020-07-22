@@ -1,0 +1,12 @@
+import random
+n=list(range(-4,4))
+random.shuffle(n)
+d=[]
+for i in range(0,len(n)):
+    if(n[i]>=0):
+        c=n[i]
+        d.append(c)       
+for i in range(0,len(d)):
+    n.pop(d[i])
+    print(n)
+n+d
