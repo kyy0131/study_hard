@@ -1,0 +1,9 @@
+d=[]
+for b in range(1,10000):
+    c=str(b).count('8')
+    d.append(c)
+sum(d)
+
+#Other's solutions
+#print str(range(1,10001)).count('8')    
+    
