@@ -1,0 +1,18 @@
+def duplicated():
+    a=str(input("Please Input numbers : "))
+    d=[]
+    for i in a:
+        c=int(i)
+        d.append(c)
+        d.sort()
+    
+    num = list(range(0,10))
+    if(len(a)!=10):
+        print("false")
+    if(len(a)==10):
+        if(d==num):
+            print("True")    
+        else:
+            print("False")
+            
+duplicated()
