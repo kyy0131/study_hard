@@ -1,0 +1,3 @@
+eval("+".join(input("Input the number:")))
+
+#드디어 한줄 코딩 해봤다 ㅠ-ㅠ 흐규흐규
