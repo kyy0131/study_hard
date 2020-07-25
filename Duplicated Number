@@ -16,3 +16,7 @@ def duplicated():
             print("False")
             
 duplicated()
+
+def duplicated1():
+    a=input("숫자를 입력하세요. : ")
+    print('true' if len(a)==len(set(a))==10 else 'false')
