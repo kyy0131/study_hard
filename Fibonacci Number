@@ -1,0 +1,10 @@
+n = int(input("input the numbers : "))
+s = [0,1,1]
+i=0
+while(1):
+    i=i+1
+    s.append(int(s[i]+s[i+1]))
+    if(s[i+2]>n):
+        del (s[i+2])
+        break
+print(s)
