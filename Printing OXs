@@ -1,0 +1,4 @@
+a = int(input("정수를 입력해주세요."))
+for i in range(0,a):
+    i=i+1
+    print('O'*(a-i)+'X'*i)
