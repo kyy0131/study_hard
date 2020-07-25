@@ -1,0 +1,15 @@
+a = input("Please Input the version1. : ")
+b = input("Please Input the version2. : ")
+a.split('.')
+b.split('.')
+
+list_a=list(map(int,a.split('.')))
+list_b=list(map(int,b.split('.')))
+
+for i in (0,len(list_a)-1):
+    if(list_a[i]>list_b[i]):
+        print(a+'>'+b)
+    elif(list_a[i]<list_b[i]):
+        print(a+'<'+b)
+    elif(list_a[i]==list_b[i]):
+        i=i+1
